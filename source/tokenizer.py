@@ -3,7 +3,7 @@ import nltk
 import os
 from functools import reduce
 
-NLTK_DIR = "../data/nltk_data"
+NLTK_DIR = "./data/nltk_data"
 nltk.data.path.append(NLTK_DIR)
 
 class Tokenizer:
